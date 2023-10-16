@@ -4,6 +4,23 @@
   <img alt="BoxyHQ Banner" src="https://github.com/boxyhq/jackson/assets/66887028/b40520b7-dbce-400b-88d3-400d1c215ea1">
 </picture>
 
+<h3 align="center">
+  Participating in 
+</h3>
+
+<div align="center">  
+  
+  ![Hacktoberfest](https://ziadoua.github.io/m3-Markdown-Badges/badges/Hacktoberfest2023/hacktoberfest20231.svg)
+</div>
+
+<h3 align="center">
+
+[⬆️ Take a look at our Issues ⬆️](https://github.com/boxyhq/saas-starter-kit/issues)
+
+</h3>
+
+---
+
 # ⭐ Enterprise SaaS Starter Kit
 
 <p>
@@ -16,6 +33,8 @@
 </p>
 
 The Open Source Next.js SaaS boilerplate for Enterprise SaaS app development.
+
+Please star ⭐ the repo if you want us to continue developing and improving the SaaS Starter Kit! 😀
 
 ## 📖 Additional Resources
 
@@ -65,10 +84,11 @@ Please follow these simple steps to get a local copy up and running.
 
 #### 1. Setup
 
-Clone or fork this GitHub repository
+- [Fork](https://github.com/boxyhq/saas-starter-kit/fork) the repository
+- Clone the repository by using this command:
 
 ```bash
-git clone https://github.com/boxyhq/saas-starter-kit.git
+git clone https://github.com/<your_github_username>/saas-starter-kit.git
 ```
 
 #### 2. Go to the project folder
@@ -121,7 +141,7 @@ Prisma Studio is a visual editor for the data in your database.
 npx prisma studio
 ```
 
-#### 8. Testing
+#### 9. Testing
 
 We are using [Playwright](https://playwright.dev/) to execute E2E tests. Add all tests inside the `/tests` folder.
 
@@ -189,6 +209,14 @@ Please try to create bug reports that are:
 - [Twitter](https://twitter.com/BoxyHQ) / [LinkedIn](https://www.linkedin.com/company/boxyhq) (Follow us)
 - [Youtube](https://www.youtube.com/@boxyhq) (Watch community events and tutorials)
 - [GitHub Issues](https://github.com/boxyhq/saas-starter-kit/issues) (Contributions, report issues, and product ideas)
+
+## 🌍 Contributors
+
+<a href="https://github.com/boxyhq/saas-starter-kit/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=boxyhq/saas-starter-kit" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 ## 🛡️ License
 

@@ -1,4 +1,4 @@
-import { hashPassword } from '@/lib/auth';
+import { hashPassword, validatePasswordPolicy } from '@/lib/auth';
 import { generateToken, slugify } from '@/lib/common';
 import { sendVerificationEmail } from '@/lib/email/sendVerificationEmail';
 import { prisma } from '@/lib/prisma';
@@ -44,6 +44,8 @@ const handlePOST = async (req: NextApiRequest, res: NextApiResponse) => {
   if (existingUser) {
     throw new ApiError(400, 'An user with this email already exists.');
   }
+
+  validatePasswordPolicy(password);
 
   if (env.disableNonBusinessEmailSignup && !isBusinessEmail(email)) {
     throw new ApiError(
